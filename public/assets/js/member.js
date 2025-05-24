@@ -53,7 +53,7 @@ $(document).ready(function () {
     function resetModal() {
         $("#memberName").val('');
         $("#memberAddress").val('');
-        $("input[name='status'][value='Aktif']").prop("checked", true);
+        $("input[name='member_status'][value='Aktif']").prop("checked", true);
     }
 
     $("#memberModal").on("show.bs.modal", function (event) {
@@ -69,7 +69,7 @@ $(document).ready(function () {
         if (option.method === 'PUT') {
             $("#memberName").val($button.data("name") || '');
             $("#memberAddress").val($button.data("address") || '');
-            $("input[name='status'][value='" + ($button.data("status") || 'Aktif') + "']").prop("checked", true);
+            $("input[name='member_status'][value='" + ($button.data("status") || 'Aktif') + "']").prop("checked", true);
         } else {
             resetModal();
         }
@@ -79,7 +79,7 @@ $(document).ready(function () {
         const postData = {
             name: $("#memberName").val(),
             address: $("#memberAddress").val(),
-            status: $("input[name='status']:checked").val()
+            status: $("input[name='member_status']:checked").val()
         };
         $.ajax({
             url: option.action,

@@ -183,24 +183,16 @@ ALTER TABLE anggota ADD status_anggota VARCHAR(20);
 <img src="public/assets/images/select2.png" alt="Image" style="border-radius: 8px; margin: 15px 0; width: 800px">
 <img src="public/assets/images/update.png" alt="Image" style="border-radius: 8px; margin: 15px 0; width: 800px">
 
-### Video Demo
-- [ ] Demo fungsi CRUD buku
-- [ ] Demo fungsi CRUD anggota
-- [ ] Demo proses peminjaman
-- [ ] Demo laporan dan pencarian
-
-## 👥 Kontributor
-
+## 👥 Keterangan
 - **Nama Mahasiswa:** Yoga Pangestu
 - **NIM:** 2457201008
-- **Mata Kuliah:** Sistem Basis Data & Pemrograman Web
+- **Mata Kuliah:** Sistem Basis Data & Pemrograman Berbasis Web
 - **Dosen:** Muhammad Hilmi Fauzan
 
 ## 📄 Lisensi
-
-Project ini dibuat untuk keperluan akademik UTS Sistem Basis Data dan Pemrograman Web.
+Projek ini dibuat untuk keperluan akademik UTS Sistem Basis Data dan Pemrograman Berbasis Web.
 
 ---
 
 - **Tanggal Pembuatan:** 2025-23-05 
-- **Video Penjelasan:**  
+- **Video Penjelasan:**  https://drive.google.com/file/d/1f9ZjBb9GrtmnJcLn1skNeiZqOfoVoORd/view?usp=drive_link

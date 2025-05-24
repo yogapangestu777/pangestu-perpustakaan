@@ -56,7 +56,7 @@ $(document).ready(function () {
         $("#bookTitle").val('');
         $("#bookAuthor").val('');
         $("#bookPublishYear").val('');
-        $("input[name='status'][value='Aktif']").prop("checked", true);
+        $("input[name='book_status'][value='Aktif']").prop("checked", true);
     }
 
     $("#bookModal").on("show.bs.modal", function (event) {
@@ -73,7 +73,7 @@ $(document).ready(function () {
             $("#bookTitle").val($button.data("title") || '');
             $("#bookAuthor").val($button.data("author") || '');
             $("#bookPublishYear").val($button.data("publish-year") || '');
-            $("input[name='status'][value='" + ($button.data("status") || 'Aktif') + "']").prop("checked", true);
+            $("input[name='book_status'][value='" + ($button.data("status") || 'Aktif') + "']").prop("checked", true);
         } else {
             resetModal();
         }
@@ -84,7 +84,7 @@ $(document).ready(function () {
             title: $("#bookTitle").val(),
             author: $("#bookAuthor").val(),
             publishYear: $("#bookPublishYear").val(),
-            status: $("input[name='status']:checked").val()
+            status: $("input[name='book_status']:checked").val()
         };
         $.ajax({
             url: option.action,

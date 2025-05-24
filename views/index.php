@@ -335,11 +335,11 @@
                         <br />
                         <div class="form-selectgroup">
                             <label class="form-selectgroup-item">
-                                <input type="radio" name="status" value="Aktif" class="form-selectgroup-input" checked="">
+                                <input type="radio" name="member_status" value="Aktif" class="form-selectgroup-input" checked="">
                                 <span class="form-selectgroup-label">Aktif</span>
                             </label>
                             <label class="form-selectgroup-item">
-                                <input type="radio" name="status" value="Nonaktif" class="form-selectgroup-input">
+                                <input type="radio" name="member_status" value="Nonaktif" class="form-selectgroup-input">
                                 <span class="form-selectgroup-label">Nonaktif</span>
                             </label>
                         </div>
@@ -378,11 +378,11 @@
                         <br />
                         <div class="form-selectgroup">
                             <label class="form-selectgroup-item">
-                                <input type="radio" name="status" value="Aktif" class="form-selectgroup-input" checked="">
+                                <input type="radio" name="book_status" value="Aktif" class="form-selectgroup-input" checked="">
                                 <span class="form-selectgroup-label">Aktif</span>
                             </label>
                             <label class="form-selectgroup-item">
-                                <input type="radio" name="status" value="Nonaktif" class="form-selectgroup-input">
+                                <input type="radio" name="book_status" value="Nonaktif" class="form-selectgroup-input">
                                 <span class="form-selectgroup-label">Nonaktif</span>
                             </label>
                         </div>
