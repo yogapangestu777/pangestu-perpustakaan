@@ -23,6 +23,16 @@ class Member
         return $statement;
     }
 
+    public function getAllActiveMembers()
+    {
+        $query = "SELECT * FROM " . $this->tableName . " WHERE status_anggota = :status ORDER BY id_anggota DESC";
+        $statement = $this->connection->prepare($query);
+        $status = 'Aktif';
+        $statement->bindParam(':status', $status);
+        $statement->execute();
+        return $statement;
+    }
+
     public function getMemberById($id)
     {
         $query = "SELECT * FROM " . $this->tableName . " WHERE id_anggota = ? LIMIT 0,1";

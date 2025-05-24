@@ -202,4 +202,5 @@ Project ini dibuat untuk keperluan akademik UTS Sistem Basis Data dan Pemrograma
 
 ---
 
-**Tanggal Pembuatan:** 2025-23-05 
+- **Tanggal Pembuatan:** 2025-23-05 
+- **Video Penjelasan:**  

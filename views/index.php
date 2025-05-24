@@ -362,7 +362,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="mb-3">
-                        <label for="bookTitle">Buku</label>
+                        <label for="bookTitle">Judul</label>
                         <input type="text" name="title" id="bookTitle" class="form-control" placeholder="Masukan judul buku">
                     </div>
                     <div class="mb-3">
@@ -407,7 +407,7 @@
                     <div class="mb-3">
                         <label for="loanMember">Anggota</label>
                         <select name="member" id="loanMember" class="form-control">
-                            <?php foreach ($members as $member): ?>
+                            <?php foreach ($activeMembers as $member): ?>
                                 <option value="<?php echo $member['id_anggota']; ?>"><?php echo $member['nama']; ?></option>
                             <?php endforeach; ?>
                         </select>

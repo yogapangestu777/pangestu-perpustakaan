@@ -21,6 +21,7 @@ class MainController
         $members = $this->member->getAllMembers()->fetchAll(PDO::FETCH_ASSOC);
         $books = $this->book->getAllBooks()->fetchAll(PDO::FETCH_ASSOC);
         $loans = $this->loan->getAllLoans()->fetchAll(PDO::FETCH_ASSOC);
+        $activeMembers = $this->member->getAllActiveMembers()->fetchAll(PDO::FETCH_ASSOC);
 
         include __DIR__ . '/../../views/index.php';
     }
